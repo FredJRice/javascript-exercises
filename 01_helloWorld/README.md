@@ -35,7 +35,7 @@ module.exports = helloWorld
 In this file we have a simple function called helloWorld that returns an empty string... which is exactly what our test was complaining about.  The `module.exports` on the last line is how we export the function so that it can be imported with `require()` in the spec file.
 
 Go ahead and see if you can make the test pass by editing the return value of the function, and then running the test file again.
-
+ 
 Just to make sure, in case you're confused at this point, the test is telling you that running the function `helloWorld` should return the phrase `Hello, World!`.  Punctuation and capitalization definitely matter here, so double check that if the test still isn't passing.
 
 This is what the final function should look like:
